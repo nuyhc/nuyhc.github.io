@@ -11,9 +11,11 @@
 ### Categories
 - TIL
 - Retrospective
+  - AI School
+  - Weekly
 - Programing
-- DataScience
-- Machine Learning
-- Deep Learning
+  - DataScience
+  - Machine Learning
+  - Deep Learning
 
 ---
