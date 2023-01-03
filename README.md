@@ -17,5 +17,6 @@
   - DataScience
   - Machine Learning
   - Deep Learning
+- Project
 
 ---
