@@ -24,7 +24,7 @@ title: PRism                          # the main title
 tagline: nuyhc, 방구석 개발자   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Cheat Sheet for Room Developers
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://nuyhc.github.io/'
