@@ -1,6 +1,5 @@
 ---
-title: "주요 질병 사망자 및 보건 환경 비교"
-subtitle: 멋쟁이 사자처럼 AI School 6기 MID Project
+title: 주요 질병 사망자 및 보건 환경 비교
 date: 2022-06-13T02:24:44.923Z
 
 categories:
