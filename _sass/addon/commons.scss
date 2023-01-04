@@ -703,7 +703,10 @@ $sidebar-display: "sidebar-display";
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+  // background: var(--sidebar-bg);
+  background: url("/assets/img/profile_background_rainbow.jpg");
+  background-size: 100% 100%;
+  background-position: center;
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
@@ -755,6 +758,7 @@ $sidebar-display: "sidebar-display";
     }
   } /* #avatar */
 
+  // 타이틀 폰트 설정
   .site-title {
     margin-top: 0.55rem;
 
@@ -764,10 +768,11 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 0.99);
+      color: rgba(123, 104, 238, 0.99);;
     }
   }
 
+  // 서브 타이틀 폰트 설정
   .site-subtitle {
     font-size: 95%;
     color: var(--sidebar-muted-color);
