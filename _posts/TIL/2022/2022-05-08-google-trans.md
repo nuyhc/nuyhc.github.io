@@ -5,7 +5,7 @@ date: 2022-05-08T10:01:33.341Z
 categories:
     - TIL
 tags:
-    - GoogleTrans
+    - Googletrans
 ---
 
 # 1. Google Trans로 번역하기
