@@ -13,10 +13,11 @@
 - Retrospective
   - AI School
   - Weekly
-- Programing
+- Programming
+  - Algorithm
   - DataScience
   - Machine Learning
   - Deep Learning
-- Project
+- Projects
 
 ---
