@@ -75,7 +75,9 @@ vs code에서도 미리보기로 확인할 수 있지만 [online markdown](https
 ## 5. Git Stats
 깃에서 어떤 활동을 하고 있는지 보여주는 지표, 아직은 딱히 하는게 없지만 미래를 위해..
 [readme-stats](https://github.com/anuraghazra/github-readme-stats)을 참고했다.  
+```
 ![nuyhc github stats](https://github-readme-stats.vercel.app/api?username=nuyhc&show_icons=true&count_private=true&theme=gruvbox)
+```
 
 ## 6. 백준 티어
 사실 이것때문에 꾸미는 이유가 큰거 같다. 아직 0렙이긴한데.. 동기부여 느낌으로..  
