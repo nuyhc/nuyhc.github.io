@@ -9,10 +9,10 @@ tags:
   - Plotly
   - Seaborn
   - matplot
-  - Streamlit
+  - streamlit
   - Googletrans
   - PIL
-  - Folium
+  - folium
 ---
 
 # 주요 질병 사망자 및 보건 환경 비교
@@ -206,7 +206,7 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
     
 `**folium을 이용한 지도 시각화**`
 
-<video src="/assets/images/sourceImg/CAoMDDaHE/nmw_folium.mp4" controls="controls" style="max-width: 730px;"></video>
+<video src="https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/nmw_folium.mp4" controls="controls" style="max-width: 730px;"></video>
     
 (의료 종사자 직업에 따른 분포를 한 눈에 시각화 하기 위해, 원의 크기와 색깔을 활용함)
     
