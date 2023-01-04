@@ -2,7 +2,7 @@
 title: "주요 질병 사망자 및 보건 환경 비교"
 subtitle: 멋쟁이 사자처럼 AI School 6기 MID Project
 date: 2022-06-13T02:24:44.923Z
-img_path: /nuyhc.github.io/assets/img
+
 categories:
   - Projects
 tags:
@@ -155,28 +155,28 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
 
 ### i) 주요 사망 원인 EDA 및 시각화
     
-`**folium을 이용한 지도 시각화**`
-![png](/assets/img/CAoMDDaHE/s1.png)
-![png](/nuyhc.github.io/assets/img/CAoMDDaHE/Untitled%201.png)
-![png](CAoMDDaHE/Untitled.png)
+`**folium을 이용한 지도 시각화**`    
+
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled.png?raw=true)
+
     
 지도 위에 각 국가 별 데이터 행 수를 표현해 보았음. 데이터 수의 차이는 북아메리카/유럽/아시아/오세아니아 각 대륙 별로 데이터를 제공하고 있는 국가 수의 차이에서 주로 기인함.
     
 - `국가 별 사망률(/10만 명)`
         
-![png](CAoMDDaHE/Untitled%201.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%201.png?raw=true)
         
 대부분 국가에서, 현대로 가까워질 수록 사망률이 감소함.
     
 - `질병에 따른 사망률(/10만 명)`
         
-![png](CAoMDDaHE/Untitled%202.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%202.png?raw=true)
         
 당뇨병, 암, 심혈관계 질환 등. 초기에 높은 숫자를 기록했던 주요 질병으로 인한 사망률이 시간이 흐름에 따라 빠르게 감소하는 걸 확인함. 이 역시 항암제 등 의약품 및 의료 기술의 개발 등이 사망률 감소로 이어졌을 거라 예상하였으며, ‘의료 종사자 수’ 및 ‘의약품 소비량’ 데이터와 연관지어 위의 (가설1)을 검증하려 함.
         
 - `나라 별, 질병 종류에 따른 사망률(/10만 명) 분포`
         
-![png](CAoMDDaHE/Untitled%203.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%203.png?raw=true)
         
 위의 분석과 마찬가지로, 대체로 심혈관 질환 혹은 악성신생물(암)이 사망 원인에 높은 비율을 차지함을 시각적으로 확인할 수 있음. 
         
@@ -199,7 +199,7 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
         
 또한 본 분석에 활용한 의약품 소비량 데이터(`df_medicion`)의 경우, 각 약품 종류 별 수량 정보를 포함하고 있지만, 신규 의약품 등 기술 발전에 대한 정보는 포함하고 있지 않음
     
-![10만 명 당 사망률 데이터 - 연도 별 집계된 데이터 사례의 수 ](/assets/images/sourceImg/CAoMDDaHE/Untitled%204.png)
+![10만 명 당 사망률 데이터 - 연도 별 집계된 데이터 사례의 수 ](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%204.png?raw=true)
     
 10만 명 당 사망률 데이터 - 연도 별 집계된 데이터 사례의 수 
     
@@ -216,7 +216,7 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
     
 - 연도별 의료 인력 수 (직업 별 구분)
         
-![연도별 의료 인력 수 (상세).png](/assets/images/sourceImg/CAoMDDaHE/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9D%98%EB%A3%8C_%EC%9D%B8%EB%A0%A5_%EC%88%98_(%EC%83%81%EC%84%B8).png)
+![연도별 의료 인력 수 (상세).png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/%EC%97%B0%EB%8F%84%EB%B3%84_%EC%9D%98%EB%A3%8C_%EC%9D%B8%EB%A0%A5_%EC%88%98_(%EC%83%81%EC%84%B8).png?raw=true)
         
 직업 별 의료 종사자 수를 연도 별로 집계한 결과, 아래와 같은 결론을 얻었음
         
@@ -229,11 +229,11 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
             
 - `매년 집계된 국가 기준, 연도 별 의료 인력 수 조사`
         
-![매년 집계된 데이터 기반.png](/assets/images/sourceImg/CAoMDDaHE/%EB%A7%A4%EB%85%84_%EC%A7%91%EA%B3%84%EB%90%9C_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B8%B0%EB%B0%98.png)
+![매년 집계된 데이터 기반.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/%EB%A7%A4%EB%85%84_%EC%A7%91%EA%B3%84%EB%90%9C_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B8%B0%EB%B0%98.png?raw=true)
         
 위에서 나타나던 2년 주기의 증가/감소 트렌드는 더 이상 확인되지 않으며, 앞선 결과와 동일하게 의사/간호사의 경우 지속적으로 종사자 수가 증가하는 반면, 치과의사와 약사 인력의 수는 일정한 수준으로 유지되고 있음을 확인함
         
-![매년 집계된 데이터 기반.png](/assets/images/sourceImg/CAoMDDaHE/%EB%A7%A4%EB%85%84_%EC%A7%91%EA%B3%84%EB%90%9C_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B8%B0%EB%B0%98%201.png)
+![매년 집계된 데이터 기반.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/%EB%A7%A4%EB%85%84_%EC%A7%91%EA%B3%84%EB%90%9C_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B8%B0%EB%B0%98%201.png?raw=true)
         
     
 ---
@@ -249,7 +249,7 @@ country_intersection = ['룩셈부르크',  '네덜란드',  '영국',  '이탈�
     
 - 한계 : 매 년 데이터가 수집된 국가와 직군 별 데이터 수가 상이함.
     
-![직업군별 인력수.png](/assets/images/sourceImg/CAoMDDaHE/%EC%A7%81%EC%97%85%EA%B5%B0%EB%B3%84_%EC%9D%B8%EB%A0%A5%EC%88%98.png)
+![직업군별 인력수.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/%EC%A7%81%EC%97%85%EA%B5%B0%EB%B3%84_%EC%9D%B8%EB%A0%A5%EC%88%98.png?raw=true)
     
 ## iii) 보건 관련 지출 EDA 및 시각화
 - 보건 관련 지출 항목
@@ -273,15 +273,15 @@ KOSIS에서 제공하고 있는 보건 관련 지출 항목에는 위와 같이 
     
 - `한국의 경상(GDP 대비%)`
         
-![png](CAoMDDaHE/Untitled%205.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%205.png?raw=true)
         
 - `한국의 1인당 보건지출($)`
         
-![png](CAoMDDaHE/Untitled%206.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%206.png?raw=true)
         
 - `한국의 인당 보건지출 -  경상(GDP 대비%) 비교`
         
-![png](CAoMDDaHE/Untitled%207.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%207.png?raw=true)
         
     
 ---
@@ -301,7 +301,7 @@ KOSIS에서 제공하고 있는 보건 관련 지출 항목에는 위와 같이 
 - ## iv) 의약품 소비 EDA 및 시각화
 - `연간 의약품 소비량 (규정 1일 사용량, 천 명당)`
         
-![연간 의약품 소비량 (단위: 규정 1일 사용량, 1,000명당)](/assets/images/sourceImg/CAoMDDaHE/s1.png)
+![연간 의약품 소비량 (단위: 규정 1일 사용량, 1,000명당)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s1.png?raw=true)
         
 연간 의약품 소비량 (단위: 규정 1일 사용량, 1,000명당)
         
@@ -309,37 +309,37 @@ KOSIS에서 제공하고 있는 보건 관련 지출 항목에는 위와 같이 
         
 - `국가별 의약품 소비량`
         
-![스크린샷 2022-06-11 오전 3.38.53.png](/assets/images/sourceImg/CAoMDDaHE/s3.png)  
+![스크린샷 2022-06-11 오전 3.38.53.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s3.png?raw=true)  
 위 그래프에서 일본/아일랜드/뉴질랜드 의약품 소비량이 눈에 띄게 낮은 걸 알 수 있음. 
         
 이유 분석을 위해 각 데이터를 확인한 결과, 국가 간 데이터 품질의 편차로 인해 다른 나라에 비해 수집된 데이터 양 자체가 적었음을 확인하였음.
         
 - `일본/아일랜드/뉴질랜드 의약품 소비량`
             
-![일본 의약품 소비 데이터 ](/assets/images/sourceImg/CAoMDDaHE/s5.png)         
+![일본 의약품 소비 데이터 ](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s5.png?raw=true)         
 일본 의약품 소비 데이터 
             
-![아일랜드 의약품 소비 데이터](/assets/images/sourceImg/CAoMDDaHE/s6.png)  
+![아일랜드 의약품 소비 데이터](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s6.png?raw=true)  
 아일랜드 의약품 소비 데이터
             
-![뉴질랜드 의약품 소비 데이터](/assets/images/sourceImg/CAoMDDaHE/s7.png)  
+![뉴질랜드 의약품 소비 데이터](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s7.png?raw=true)  
 뉴질랜드 의약품 소비 데이터
             
         
 - `의약품 종류 별 연간 소비량`
         
-![스크린샷 2022-06-11 오전 3.34.03.png](/assets/images/sourceImg/CAoMDDaHE/s2.png)  
+![스크린샷 2022-06-11 오전 3.34.03.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s2.png?raw=true)  
 본 프로젝트 대상기간(1998-2019년) 데이터에 대해, 다른 의약품에 비해 `소화관 및 신진대사 의약품` 소비량이 월등하게 높았음.
         
 - `연간 국가별 의약품 소비량`
         
-![스크린샷 2022-06-11 오전 3.44.05.png](/assets/images/sourceImg/CAoMDDaHE/s4.png)
+![스크린샷 2022-06-11 오전 3.44.05.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s4.png?raw=true)
         
 다른 데이터와 달리, 국가 별로 소비량 변화 추세가 너무 상이하여 결과 해석이 어려움. 따라서 대륙을 기준으로, 한국을 포함한 아시아 의약품 소비량을 중점적으로 분석해보고자 함.
         
 - `연간 아시아 국가 의약품 소비량`
             
-![스크린샷 2022-06-12 오전 8.41.52.png](/assets/images/sourceImg/CAoMDDaHE/s8.png)
+![스크린샷 2022-06-12 오전 8.41.52.png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/s8.png?raw=true)
             
 이 때, 아시아 국가의 경우 2000년 초반부터 의약품 소비 데이터가 집계되기 시작했으며, 한국은 2008년도부터 해당 통계를 생산하기 시작함. 위 그래프를 통해 국가 별 데이터 집계 기간이 상이함을 알 수 있음.
             
@@ -386,23 +386,23 @@ df_welfare = df_welfare.merge(right = df_gdp, how = 'left', on = 'key_gdp')
             
 - 금액 기준 `파생변수(GDP(10억$)) 생성`
             
-![png](CAoMDDaHE/Untitled%209.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%205.png?raw=true)
             
 - 데이터 기술통계 확인
             
-![png](CAoMDDaHE/Untitled%2010.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2010.png?raw=true)
             
 복지비용(10억$) 컬럼을 보면, 분포가 크고 다소 왼쪽으로 쏠려있음을 알 수 있음. 분포를 그려보았을 때, 예상했던 것처럼 오른쪽으로 꼬리가 긴 형태가 됨을 확인함.
             
 - 중위값 : 6377.540000 < 평균 : 22079.815236
 - 최솟값 : 79.230000, 최댓값 : 400800.840000
             
-![skewness = 4.5640147937318805](/assets/images/sourceImg/CAoMDDaHE/Untitled%2011.png)
+![skewness = 4.5640147937318805](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2011.png?raw=true)
             
 skewness = 4.5640147937318805
             
         
-![연도 별 28개국 공공사회복지비용 추이 (단위: 10억$)](/assets/images/sourceImg/CAoMDDaHE/Untitled%2012.png)
+![연도 별 28개국 공공사회복지비용 추이 (단위: 10억$)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2012.png?raw=true)
         
 연도 별 28개국 공공사회복지비용 추이 (단위: 10억$)
         
@@ -430,7 +430,7 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
             
 1) 나머지 26개국 복지 비용 증감 분석 시, 1998-2016년 추세와 같이 증가하고 있음을 확인함. 대륙 별 전년 대비 비용 증감을 집계한 결과는 다음과 같음.
             
-![2017 > 2018년도 대륙 별 공공사회복지지출액 증감 요약](/assets/images/sourceImg/CAoMDDaHE/Untitled%2013.png)
+![2017 > 2018년도 대륙 별 공공사회복지지출액 증감 요약](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2013.png?raw=true)
             
 2017 > 2018년도 대륙 별 공공사회복지지출액 증감 요약
             
@@ -448,7 +448,7 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
             
 1) 세 나라를 제외한, 나머지 23개국의 복지 지출액 증감을 분석한 결과, 2018년도 대비 증가 규모는 감소하였지만 여전히 모든 대륙에서 복지 비용을 늘렸음을 알 수 있음.
             
-![2018 > 2019년도 대륙 별 공공사회복지지출액 증감 요약](/assets/images/sourceImg/CAoMDDaHE/Untitled%2014.png)
+![2018 > 2019년도 대륙 별 공공사회복지지출액 증감 요약](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2014.png?raw=true)
             
 2018 > 2019년도 대륙 별 공공사회복지지출액 증감 요약
             
@@ -460,7 +460,7 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
     
 - 2018-19년 동안 데이터를 집계하지 않은  5개국 제외, 23개국 데이터에 대해서 연도 별 총 복지 비용을 분석한 결과, 전반적으로 공공사회복지 지출 증가하고 있음을 확인할 수 있음.
         
-![5개국 제외. 23개국 공공사회복지비용 추이 (단위: 10억$)](/assets/images/sourceImg/CAoMDDaHE/Untitled%2015.png)
+![5개국 제외. 23개국 공공사회복지비용 추이 (단위: 10억$)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2015.png?raw=true)
         
 5개국 제외. 23개국 공공사회복지비용 추이 (단위: 10억$)
 
@@ -501,24 +501,24 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
 - 
 전체적인 추세와 함께 사회 복지 서비스 지출의 대소를 한 눈에 파악해보고자 막대 그래프로 연간 비용을 대륙 별로 표현한 결과, 2018 → 2019 년에 아시아와 오세아니아에서 눈에 띄게 지출이 감소했음을 알 수 있음.
         
-![대륙 별 사회복지서비스 지출 총액 변동 추이 (단위 : 백만$)](/assets/images/sourceImg/CAoMDDaHE/Untitled%2016.png)
+![대륙 별 사회복지서비스 지출 총액 변동 추이 (단위 : 백만$)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2016.png?raw=true)
         
 대륙 별 사회복지서비스 지출 총액 변동 추이 (단위 : 백만$)
         
 이에 특히 어느 나라에서 지출이 크게 감소했는지 확인을 위해 나라 별로 분석을 진행함.
         
-![국가 별 사회복지서비스 지출 총액 변동 추이 (단위 : 백만$)](/assets/images/sourceImg/CAoMDDaHE/Untitled%2017.png)
+![국가 별 사회복지서비스 지출 총액 변동 추이 (단위 : 백만$)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2017.png?raw=true)
         
 국가 별 사회복지서비스 지출 총액 변동 추이 (단위 : 백만$)
         
 - 이 경우, 앞선 (공공사회복지 지출) 경우와 다르게 데이터 생산 년도에 따른 국가 차이는 없었으나, 일본과 벨기에가 눈에 띄게 감소하는 걸 볼 수 있음. 따라서 일본을 중심으로 지출 감소 원인을 분석해 봄.
 - `2018년도 -> 2019년도 일본 사회복지서비스 지출 감소 원인 분석`
                 
-![서비스 항목 별 사회복지서비스 총액 증감 (단위 : 백만$)](/assets/images/sourceImg/CAoMDDaHE/Untitled%2018.png)
+![서비스 항목 별 사회복지서비스 총액 증감 (단위 : 백만$)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2018.png?raw=true)
                 
 사회 복지 서비스 구분 항목 별 증감을 보면, 보건 당기 지출을 제외한 모든 비용이 감소했음을 알 수 있음. 그 중 특히 치료 및 재활 치료, 장기 치료, 의료품 등 치료에 관한 항목이 크게 감소했음. 
                 
-![서비스 항목 별, 시간에 따른 사회복지서비스 총액 증감 추이 (단위 : 백만$)](/assets/images/sourceImg/CAoMDDaHE/Untitled%2019.png)
+![서비스 항목 별, 시간에 따른 사회복지서비스 총액 증감 추이 (단위 : 백만$)](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2019.png?raw=true)
                 
 서비스 항목 별, 시간에 따른 사회복지서비스 총액 증감 추이 (단위 : 백만$)
                 
@@ -548,7 +548,7 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
 ## vi) 최종 결론 (데이터 간 상관관계 분석)
 - **28개국 전체 대상**
         
-![png](CAoMDDaHE/Untitled%2020.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2020.png?raw=true)
         
 - ***~~가설 1. 기술 발전에 따른 보건 인프라 증대  → 질병에 따른 사망률 감소~~***
 - ***가설 2. 임상 현장 근무 의료 종사자 수 증가  → 질병에 따른 사망률 감소***
@@ -571,13 +571,13 @@ aus_jp_2017 / (sum_2017- sum_2018) * 100
 * 의사/간호사 데이터만 이용
 ```
         
-![직업 별 의료 종사자 수와 사망률 간 상관관계 분석](/assets/images/sourceImg/CAoMDDaHE/Untitled%2021.png)
+![직업 별 의료 종사자 수와 사망률 간 상관관계 분석](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2021.png?raw=true)
         
 직업 별 의료 종사자 수와 사망률 간 상관관계 분석
         
 2**)** **국내 사망률 - 보건 관련 지출 간 관계 분석** 
         
-![1인당 보건지출($)과 사망률 간 상관관계 분석](/assets/images/sourceImg/CAoMDDaHE/Untitled%2022.png)
+![1인당 보건지출($)과 사망률 간 상관관계 분석](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2022.png?raw=true)
         
 1인당 보건지출($)과 사망률 간 상관관계 분석
         
@@ -624,13 +624,13 @@ dict_medicine_cat = {'소화관 및 신진대사': '소화계통',
 ```
                 
         
-![질병 종류에 따른 사망률과 의약품 소비/판매 간 상관관계 분석](/assets/images/sourceImg/CAoMDDaHE/Untitled%2023.png)
+![질병 종류에 따른 사망률과 의약품 소비/판매 간 상관관계 분석](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2023.png?raw=true)
         
 질병 종류에 따른 사망률과 의약품 소비/판매 간 상관관계 분석
         
 **4) 국내 사망률 - 보건 서비스 지출 간 관계 분석** 
         
-![png](CAoMDDaHE/Untitled%2024.png)
+![png](https://github.com/nuyhc/github.io.archives/blob/main/CAoMDDaHE/Untitled%2024.png?raw=true)
             
 --- 
     
