@@ -1,6 +1,6 @@
 ---
 title: "[BC] 모두를 위한 딥러닝 1 - Basic ML"
-date: 2023-02-05T14:38:34.605Z
+date: 2023-02-05T14:34:34.605Z
 
 categories:
   - Programming
